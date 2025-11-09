@@ -1,0 +1,53 @@
+# ================================
+# ARCHIVOS Y CARPETAS DE PYTHON
+# ================================
+__pycache__/
+*.py[cod]
+*.pyo
+*.pyd
+*.pdb
+*.pyc
+
+# Archivos temporales o de pruebas
+*.log
+*.tmp
+*.bak
+
+# ================================
+# ENTORNOS VIRTUALES
+# ================================
+venv/
+env/
+.venv/
+
+# ================================
+# BASE DE DATOS LOCAL
+# ================================
+*.db
+*.sqlite3
+
+# ================================
+# CONFIGURACIONES DE SISTEMA
+# ================================
+.DS_Store
+Thumbs.db
+
+# ================================
+# ARCHIVOS DE IDEs
+# ================================
+.vscode/
+.idea/
+*.code-workspace
+
+# ================================
+# ARCHIVOS DE DEPLOY O CACHE
+# ================================
+__pycache__/
+*.egg-info/
+dist/
+build/
+
+# ================================
+# ARCHIVOS DE GIT Y CONTROL DE VERSIONES
+# ================================
+.gitignore
