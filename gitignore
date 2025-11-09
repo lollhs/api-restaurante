@@ -1,6 +1,4 @@
-# ================================
-# ARCHIVOS Y CARPETAS DE PYTHON
-# ================================
+# archivos y carpetas p
 __pycache__/
 *.py[cod]
 *.pyo
@@ -13,41 +11,29 @@ __pycache__/
 *.tmp
 *.bak
 
-# ================================
-# ENTORNOS VIRTUALES
-# ================================
+# entorno virtual
 venv/
 env/
 .venv/
 
-# ================================
-# BASE DE DATOS LOCAL
-# ================================
+# base de datos
 *.db
 *.sqlite3
 
-# ================================
-# CONFIGURACIONES DE SISTEMA
-# ================================
+# confi sistema
 .DS_Store
 Thumbs.db
 
-# ================================
-# ARCHIVOS DE IDEs
-# ================================
+# archivos ides
 .vscode/
 .idea/
 *.code-workspace
 
-# ================================
-# ARCHIVOS DE DEPLOY O CACHE
-# ================================
+# archivos deploy y cache
 __pycache__/
 *.egg-info/
 dist/
 build/
 
-# ================================
-# ARCHIVOS DE GIT Y CONTROL DE VERSIONES
-# ================================
+# archivo git
 .gitignore
