@@ -2,9 +2,8 @@ from sqlalchemy.orm import Session
 from models import Categoria, Plato, Cliente, Mesero, Pedido
 from schemas import CategoriaCreate, PlatoCreate, ClienteCreate, MeseroCreate, PedidoCreate
 
-# ==========================
-#   CRUD PARA CATEGORÍAS
-# ==========================
+
+#  categorias
 def get_categorias(db: Session):
     return db.query(Categoria).all()
 
@@ -50,9 +49,7 @@ def delete_plato(db: Session, plato_id: int):
     return False
 
 
-# ==========================
-#   CRUD PARA CLIENTES
-# ==========================
+# clientes
 def get_clientes(db: Session):
     return db.query(Cliente).all()
 
@@ -75,9 +72,7 @@ def delete_cliente(db: Session, cliente_id: int):
     return False
 
 
-# ==========================
-#   CRUD PARA MESEROS
-# ==========================
+# meseros
 def get_meseros(db: Session):
     return db.query(Mesero).all()
 
@@ -100,9 +95,7 @@ def delete_mesero(db: Session, mesero_id: int):
     return False
 
 
-# ==========================
-#   CRUD PARA PEDIDOS
-# ==========================
+# pedidos
 def get_pedidos(db: Session):
     return db.query(Pedido).all()
 
