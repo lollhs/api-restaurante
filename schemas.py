@@ -9,7 +9,7 @@ class CategoriaCreate(CategoriaBase):
 class Categoria(CategoriaBase):
     id: int
     class Config:
-        orm_mode = True
+        from_attributes  = True
 
 class PlatoBase(BaseModel):
     nombre: str
