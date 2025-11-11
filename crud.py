@@ -23,9 +23,7 @@ def delete_categoria(db: Session, categoria_id: int):
     return False
 
 
-# ==========================
-#   CRUD PARA PLATOS
-# ==========================
+# crud platos
 def get_platos(db: Session):
     return db.query(Plato).all()
 
